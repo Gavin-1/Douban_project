@@ -8,8 +8,8 @@
 
 #import "ChannelInfo.h"
 
-static ChannelInfo *currentChannel;
-static NSArray *channelsTitleArray;
+static ChannelInfo *currentChannel;//当前的频道
+static NSArray *channelsTitleArray;//存放频道title的数组
 
 @implementation ChannelInfo
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary{
@@ -22,7 +22,7 @@ static NSArray *channelsTitleArray;
 
 + (NSMutableArray *)channels{
     static NSMutableArray *channels;
-    static dispatch_once_t onceToken;
+    static dispatch_once_t onceToken;//只执行一次的任务
     dispatch_once(&onceToken, ^{
         channels = [NSMutableArray array];
     });
@@ -37,7 +37,7 @@ static NSArray *channelsTitleArray;
     }
     return currentChannel;
 }
-
+//更新当前的频道
 + (void)updateCurrentCannel:(ChannelInfo *)channel
 {
     currentChannel = channel;
