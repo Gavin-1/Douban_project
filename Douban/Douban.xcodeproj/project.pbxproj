@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
 		4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827E1CD1B81C00F12BA6 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
+		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEB82781CD1B81C00F12BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +55,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2FF12F131CD8D72100CAA2E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */,
+				2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4AEB826B1CD1B81B00F12BA6 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +85,7 @@
 		4AEB82761CD1B81B00F12BA6 /* Douban */ = {
 			isa = PBXGroup;
 			children = (
+				2FF12F131CD8D72100CAA2E1 /* Model */,
 				4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */,
 				4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */,
 				4AEB827D1CD1B81C00F12BA6 /* ViewController.h */,
@@ -226,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
+				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
 				4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */,
 				4AEB82791CD1B81C00F12BA6 /* main.m in Sources */,
 			);
