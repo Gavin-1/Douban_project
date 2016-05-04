@@ -76,6 +76,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2FB8AA711CDA14D600D47097 /* Conyroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Conyroller;
+			sourceTree = "<group>";
+		};
 		2FF12F131CD8D72100CAA2E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +127,7 @@
 		4AEB82761CD1B81B00F12BA6 /* Douban */ = {
 			isa = PBXGroup;
 			children = (
+				2FB8AA711CDA14D600D47097 /* Conyroller */,
 				2FF12F131CD8D72100CAA2E1 /* Model */,
 				4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */,
 				4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */,

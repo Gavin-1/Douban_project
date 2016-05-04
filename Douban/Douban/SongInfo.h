@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  豆瓣中存放歌曲的所有信息
+ */
 @interface SongInfo : NSObject
 
 @property (nonatomic, assign) NSInteger index;//歌曲的下标
