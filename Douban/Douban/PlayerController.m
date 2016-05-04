@@ -41,7 +41,7 @@
     });
     return sharedInstance;
 }
-//初始化歌曲，方法的重写。还是初始化吧
+//初始化歌曲，代理
 -(void)initSongInfomation
 {
     [self.songInfoDelegate initSongInfomation];
