@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ 与ChannelInfo中的枚举变量相对应，本类获取的是频道中关于上升趋势频道的信息
+ *
+ */
 @interface DFMUpChannelsEntity : NSObject
 //声明一个属性可变数组
 @property (nonatomic, copy) NSMutableArray *channels;
