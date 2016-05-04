@@ -25,6 +25,9 @@
 		4AEB82D31CD99DA700F12BA6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEB82D21CD99DA700F12BA6 /* AVFoundation.framework */; };
 		4AEB82DD1CDA02A200F12BA6 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82DC1CDA02A200F12BA6 /* PlayerController.m */; };
 		62A88E581CDA1A260019408A /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A88E571CDA1A260019408A /* UserInfo.m */; };
+		62A88E5C1CDA23F80019408A /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A88E5A1CDA23F80019408A /* ChannelsTableViewCell.m */; };
+		62A88E5D1CDA23F80019408A /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A88E5B1CDA23F80019408A /* ChannelsTableViewCell.xib */; };
+		62A88E631CDA24880019408A /* ChannelTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A88E611CDA24880019408A /* ChannelTableViewController.xib */; };
 		C236F220B709ED07D7CE8F45 /* libPods-Douban.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,10 @@
 		4F9545360E8FE53B268E15CE /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
 		62A88E561CDA1A260019408A /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		62A88E571CDA1A260019408A /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		62A88E591CDA23F80019408A /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
+		62A88E5A1CDA23F80019408A /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
+		62A88E5B1CDA23F80019408A /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
+		62A88E611CDA24880019408A /* ChannelTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelTableViewController.xib; sourceTree = "<group>"; };
 		D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E1810721E6BF0D0738CC2 /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +126,7 @@
 		4AEB826B1CD1B81B00F12BA6 = {
 			isa = PBXGroup;
 			children = (
+				62A88E5E1CDA23FD0019408A /* view */,
 				4AEB82761CD1B81B00F12BA6 /* Douban */,
 				4AEB82751CD1B81B00F12BA6 /* Products */,
 				D2E58AE19F510AB1600A069A /* Pods */,
@@ -142,7 +150,6 @@
 				4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */,
 				4AEB827D1CD1B81C00F12BA6 /* ViewController.h */,
 				4AEB827E1CD1B81C00F12BA6 /* ViewController.m */,
-				4AEB82801CD1B81C00F12BA6 /* Main.storyboard */,
 				4AEB82831CD1B81C00F12BA6 /* Assets.xcassets */,
 				4AEB82851CD1B81C00F12BA6 /* LaunchScreen.storyboard */,
 				4AEB82881CD1B81C00F12BA6 /* Info.plist */,
@@ -157,6 +164,18 @@
 				4AEB82781CD1B81C00F12BA6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62A88E5E1CDA23FD0019408A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				62A88E591CDA23F80019408A /* ChannelsTableViewCell.h */,
+				62A88E5A1CDA23F80019408A /* ChannelsTableViewCell.m */,
+				62A88E5B1CDA23F80019408A /* ChannelsTableViewCell.xib */,
+				62A88E611CDA24880019408A /* ChannelTableViewController.xib */,
+				4AEB82801CD1B81C00F12BA6 /* Main.storyboard */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		D2E58AE19F510AB1600A069A /* Pods */ = {
@@ -230,6 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEB82871CD1B81C00F12BA6 /* LaunchScreen.storyboard in Resources */,
+				62A88E5D1CDA23F80019408A /* ChannelsTableViewCell.xib in Resources */,
+				62A88E631CDA24880019408A /* ChannelTableViewController.xib in Resources */,
 				4AEB82841CD1B81C00F12BA6 /* Assets.xcassets in Resources */,
 				4AEB82821CD1B81C00F12BA6 /* Main.storyboard in Resources */,
 			);
@@ -290,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A88E5C1CDA23F80019408A /* ChannelsTableViewCell.m in Sources */,
 				26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */,
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
@@ -314,6 +336,7 @@
 				4AEB82811CD1B81C00F12BA6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Douban;
 			sourceTree = "<group>";
 		};
 		4AEB82851CD1B81C00F12BA6 /* LaunchScreen.storyboard */ = {
