@@ -22,7 +22,7 @@ static NSArray *channelsTitleArray;/**<频道标题数组*/
 
 + (NSMutableArray *)channels{
     static NSMutableArray *channels;
-    static dispatch_once_t onceToken;
+    static dispatch_once_t onceToken;//只执行一次的任务
     dispatch_once(&onceToken, ^{
         channels = [NSMutableArray array];
     });
@@ -37,7 +37,7 @@ static NSArray *channelsTitleArray;/**<频道标题数组*/
     }
     return currentChannel;
 }
-
+//更新当前的频道
 + (void)updateCurrentCannel:(ChannelInfo *)channel
 {
     currentChannel = channel;
