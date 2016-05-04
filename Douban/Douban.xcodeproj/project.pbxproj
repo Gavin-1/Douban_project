@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9831CD9D21000077FFF /* ProtocolClass.m */; };
 		26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9851CD9D21000077FFF /* SongInfo.m */; };
+		2FB8AA741CDA1A2A00D47097 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8AA731CDA1A2A00D47097 /* UserInfo.m */; };
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
@@ -32,6 +33,8 @@
 		26E6B9831CD9D21000077FFF /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
 		26E6B9841CD9D21000077FFF /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
 		26E6B9851CD9D21000077FFF /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
+		2FB8AA721CDA1A2A00D47097 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		2FB8AA731CDA1A2A00D47097 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +117,8 @@
 				4AEB82C81CD996CE00F12BA6 /* DFMPlaylist.m */,
 				4AEB82DB1CDA02A200F12BA6 /* PlayerController.h */,
 				4AEB82DC1CDA02A200F12BA6 /* PlayerController.m */,
+				2FB8AA721CDA1A2A00D47097 /* UserInfo.h */,
+				2FB8AA731CDA1A2A00D47097 /* UserInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
 				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
+				2FB8AA741CDA1A2A00D47097 /* UserInfo.m in Sources */,
 				26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */,
 				4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */,
 				4AEB82C61CD9949B00F12BA6 /* DFMHotChannelsEntity.m in Sources */,
