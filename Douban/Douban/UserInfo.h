@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  本类是存放的是用户信息
+ */
 @interface UserInfo : NSObject
 @property(nonatomic,copy)NSString* isNotLogin;//用户是否登录
 @property(nonatomic,copy)NSString* cookies;//缓存？？？
