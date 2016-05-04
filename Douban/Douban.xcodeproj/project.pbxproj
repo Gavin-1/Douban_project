@@ -58,8 +58,6 @@
 		4AEB82DB1CDA02A200F12BA6 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
 		4AEB82DC1CDA02A200F12BA6 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
 		4F9545360E8FE53B268E15CE /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
-		62E2EF841CD9C78300B801EE /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
-		62E2EF851CD9C78300B801EE /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E1810721E6BF0D0738CC2 /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -289,7 +287,6 @@
 			files = (
 				26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */,
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
-				62E2EF861CD9C78300B801EE /* UserInfo.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
 				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
 				26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */,
@@ -412,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Douban/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiawen.org.Douban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Douban/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiawen.org.Douban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
