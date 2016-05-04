@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
+		2FF12F191CD9882200CAA2E1 /* DFMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F181CD9882200CAA2E1 /* DFMPlaylist.m */; };
+		2FF12F1C1CD9890500CAA2E1 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F1B1CD9890500CAA2E1 /* SongInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
 		4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827E1CD1B81C00F12BA6 /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* Begin PBXFileReference section */
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
+		2FF12F171CD9882200CAA2E1 /* DFMPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMPlaylist.h; sourceTree = "<group>"; };
+		2FF12F181CD9882200CAA2E1 /* DFMPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMPlaylist.m; sourceTree = "<group>"; };
+		2FF12F1A1CD9890500CAA2E1 /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
+		2FF12F1B1CD9890500CAA2E1 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEB82781CD1B81C00F12BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +66,10 @@
 			children = (
 				2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */,
 				2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */,
+				2FF12F1A1CD9890500CAA2E1 /* SongInfo.h */,
+				2FF12F1B1CD9890500CAA2E1 /* SongInfo.m */,
+				2FF12F171CD9882200CAA2E1 /* DFMPlaylist.h */,
+				2FF12F181CD9882200CAA2E1 /* DFMPlaylist.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -240,8 +250,10 @@
 			files = (
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
 				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
+				2FF12F1C1CD9890500CAA2E1 /* SongInfo.m in Sources */,
 				4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */,
 				4AEB82791CD1B81C00F12BA6 /* main.m in Sources */,
+				2FF12F191CD9882200CAA2E1 /* DFMPlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
