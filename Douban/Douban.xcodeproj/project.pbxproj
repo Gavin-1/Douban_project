@@ -21,6 +21,7 @@
 		4AEB82C31CD992B600F12BA6 /* DFMUpChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82C21CD992B600F12BA6 /* DFMUpChannelsEntity.m */; };
 		4AEB82C61CD9949B00F12BA6 /* DFMHotChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82C51CD9949B00F12BA6 /* DFMHotChannelsEntity.m */; };
 		4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82C81CD996CE00F12BA6 /* DFMPlaylist.m */; };
+		62E2EF861CD9C78300B801EE /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E2EF851CD9C78300B801EE /* UserInfo.m */; };
 		C236F220B709ED07D7CE8F45 /* libPods-Douban.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		4AEB82C71CD996CE00F12BA6 /* DFMPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMPlaylist.h; sourceTree = "<group>"; };
 		4AEB82C81CD996CE00F12BA6 /* DFMPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMPlaylist.m; sourceTree = "<group>"; };
 		4F9545360E8FE53B268E15CE /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
+		62E2EF841CD9C78300B801EE /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		62E2EF851CD9C78300B801EE /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E1810721E6BF0D0738CC2 /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +112,8 @@
 				4AEB82C51CD9949B00F12BA6 /* DFMHotChannelsEntity.m */,
 				4AEB82C71CD996CE00F12BA6 /* DFMPlaylist.h */,
 				4AEB82C81CD996CE00F12BA6 /* DFMPlaylist.m */,
+				62E2EF841CD9C78300B801EE /* UserInfo.h */,
+				62E2EF851CD9C78300B801EE /* UserInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			files = (
 				26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */,
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
+				62E2EF861CD9C78300B801EE /* UserInfo.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
 				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
 				26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */,
