@@ -8,8 +8,8 @@
 
 #import "ChannelInfo.h"
 
-static ChannelInfo *currentChannel;
-static NSArray *channelsTitleArray;
+static ChannelInfo *currentChannel;/**<当前的频道*/
+static NSArray *channelsTitleArray;/**<频道标题数组*/
 
 @implementation ChannelInfo
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary{
@@ -28,7 +28,7 @@ static NSArray *channelsTitleArray;
     });
     return channels;
 }
-
+//单例
 + (instancetype)currentChannel
 {
     if (!currentChannel)
