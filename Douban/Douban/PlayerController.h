@@ -14,6 +14,7 @@
 //#import "NetworkManager.h"
 //#import "ProtocolClass.h"
 
+//这里面的MPMoviePlayerController在9.0版本后改成了AVPlayer....所以要想用这个的话就
 @interface PlayerController : MPMoviePlayerController
 //
 //@property id<DoubanDelegate> songInfoDelegate;
