@@ -22,7 +22,15 @@
     UIButton* _menuButton;
     NSMutableArray* _buttonList;
 }
-@property(nonatomic,retain)UIColor* menuColor;
-@property(nonatomic,assign)BOOL isOpen;
+@property(nonatomic,retain)UIColor* menuColor;//菜单颜色
+@property(nonatomic,assign)BOOL isOpen;//打开状态
+//设置代理
+@property(nonatomic,weak)id<CDSideBarControllerDelegate>delegate;
+
++(CDSideBarController *)sharedInstanceWithImages:(NSArray*)images;//初始化右侧的侧滑菜单Image
++(CDSideBarController *)sharedInstance;//右侧的侧滑菜单
+- (CDSideBarController*)initWithImages:(NSArray*)buttonList;//初始化图片和列表按钮
+- (void)insertMenuButtonOnView:(UIView*)view atPosition:(CGPoint)position;//通过位置来插入View
+- (void)dismissMenu;//释放菜单
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+//添加协议
 @protocol DoubanDelegate <NSObject>
 @optional
 
