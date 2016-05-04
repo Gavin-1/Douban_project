@@ -30,7 +30,8 @@ static NSArray *channelsTitleArray;/**<频道列表数组*/
     return self;
 }
 
-+ (NSMutableArray *)channels{
++ (NSMutableArray *)channels
+{
     //利用多线程，创建一个单例模式，用来上传频道数组
     static NSMutableArray *channels;//
     static dispatch_once_t onceToken;//只执行一次的任务

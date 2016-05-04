@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9831CD9D21000077FFF /* ProtocolClass.m */; };
 		26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9851CD9D21000077FFF /* SongInfo.m */; };
+		26E6B98C1CDA057200077FFF /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B98B1CDA057100077FFF /* CDSideBarController.m */; };
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
@@ -28,6 +29,8 @@
 		26E6B9831CD9D21000077FFF /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
 		26E6B9841CD9D21000077FFF /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
 		26E6B9851CD9D21000077FFF /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
+		26E6B98A1CDA057100077FFF /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
+		26E6B98B1CDA057100077FFF /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		26E6B9881CDA042000077FFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		26E6B9891CDA04FD00077FFF /* CDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				26E6B98A1CDA057100077FFF /* CDSideBarController.h */,
+				26E6B98B1CDA057100077FFF /* CDSideBarController.m */,
+			);
+			name = CDSideBarController;
+			sourceTree = "<group>";
+		};
 		2FF12F131CD8D72100CAA2E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,7 @@
 		4AEB826B1CD1B81B00F12BA6 = {
 			isa = PBXGroup;
 			children = (
+				26E6B9891CDA04FD00077FFF /* CDSideBarController */,
 				4AEB82761CD1B81B00F12BA6 /* Douban */,
 				4AEB82751CD1B81B00F12BA6 /* Products */,
 				D2E58AE19F510AB1600A069A /* Pods */,
@@ -115,6 +135,7 @@
 		4AEB82761CD1B81B00F12BA6 /* Douban */ = {
 			isa = PBXGroup;
 			children = (
+				26E6B9881CDA042000077FFF /* Controller */,
 				2FF12F131CD8D72100CAA2E1 /* Model */,
 				4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */,
 				4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */,
@@ -278,6 +299,7 @@
 				4AEB82C31CD992B600F12BA6 /* DFMUpChannelsEntity.m in Sources */,
 				4AEB82C01CD8DA8D00F12BA6 /* DFMRecChannelsEntity.m in Sources */,
 				4AEB82791CD1B81C00F12BA6 /* main.m in Sources */,
+				26E6B98C1CDA057200077FFF /* CDSideBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

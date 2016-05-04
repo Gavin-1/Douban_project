@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 //用枚举定义变量，可直接使用，不用初始化，简洁
-typedef NS_ENUM(NSUInteger, DFMChannelType) {
+typedef NS_ENUM(NSUInteger, DFMChannelType)
+{
     DFMChannelTypeReccommend = 1,//频道列表  推荐、上升、热门
     DFMChannelTypeUpTrending,
     DFMChannelTypeHot,
