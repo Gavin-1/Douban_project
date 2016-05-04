@@ -28,6 +28,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Vj9-u8-474"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5JN-Ge-dkp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M68-Xd-5OI">
@@ -63,6 +64,7 @@
                         <viewControllerLayoutGuide type="bottom" id="uZf-VZ-5be"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vd8-iq-IgD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
