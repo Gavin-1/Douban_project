@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface DFMPlaylist : NSObject
-//可变数组song，应该是存放歌曲用的（？）
+//可变数组song，应该是存放歌曲用的
+//播放列表
 @property (nonatomic, copy) NSMutableArray *song;
 @end
