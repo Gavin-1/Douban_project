@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
+#import "ChannelsTableViewCell.h"
+#import "ChannelInfo.h"
+#import "AppDelegate.h"
 
-
+#import "PlayerController.h"
+#import "ProtocolClass.h"
 @interface ChannelsTableViewController : UITableViewController
 
 @end
