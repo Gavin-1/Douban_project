@@ -4,7 +4,7 @@
 //
 //  Created by YANG on 16/5/3.
 //  Copyright © 2016年 唐家文. All rights reserved.
-//
+//哈哈哈uu
 
 #import <Foundation/Foundation.h>
 //用枚举定义变量，可直接使用，不用初始化，简洁

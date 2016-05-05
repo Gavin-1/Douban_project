@@ -3,11 +3,13 @@
 //  Douban
 //
 //  Created by lkjy on 16/5/4.
-//  Copyright © 2016年 唐家文. All rights reserved.
+//  Copyright © 2016年 李浙 All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  本类是存放的是用户信息
+ */
 @interface UserInfo : NSObject
 @property(nonatomic,copy)NSString* isNotLogin;//用户是否登录
 @property(nonatomic,copy)NSString* cookies;//缓存？？？
