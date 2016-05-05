@@ -10,7 +10,6 @@
 //添加协议
 @protocol DoubanDelegate <NSObject>
 @optional
-
 //登陆界面delegate
 -(void)setCaptchaImageWithURLInString:(NSString *)url;
 -(void)loginSuccess;

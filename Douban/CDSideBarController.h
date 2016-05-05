@@ -18,9 +18,9 @@
 
 @interface CDSideBarController : NSObject
 {
-    UIView* _backgroundMenuView;
-    UIButton* _menuButton;
-    NSMutableArray* _buttonList;
+    UIView* _backgroundMenuView;//背景菜单View
+    UIButton* _menuButton;//菜单button
+    NSMutableArray* _buttonList;//button列表
 }
 @property(nonatomic,retain)UIColor* menuColor;//菜单颜色
 @property(nonatomic,assign)BOOL isOpen;//打开状态
