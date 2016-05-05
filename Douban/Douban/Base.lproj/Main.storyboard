@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -18,7 +19,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vwa-I6-iTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2659.5" y="266"/>
+            <point key="canvasLocation" x="-2932.5" y="275"/>
         </scene>
         <!--User Info View Controller-->
         <scene sceneID="Gjr-vC-Lgx">
@@ -108,25 +109,6 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHq-15-9HP">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="gab-y4-pn1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="gab-y4-pn1"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="gab-y4-pn1"/>
-                                    </mask>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lb-vP-bt3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="0.16" colorSpace="calibratedRGB"/>
@@ -186,10 +168,28 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHq-15-9HP">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="gab-y4-pn1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gab-y4-pn1"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="gab-y4-pn1"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0ja-6T-OBr" firstAttribute="top" secondItem="p82-mA-cfP" secondAttribute="bottom" constant="30" id="046-Vz-pmh"/>
                             <constraint firstItem="dHq-15-9HP" firstAttribute="leading" secondItem="uiQ-Br-exl" secondAttribute="trailing" constant="92" id="2Ml-LS-ESY"/>
                             <constraint firstItem="RPa-nE-E7X" firstAttribute="top" secondItem="kp0-0w-g9I" secondAttribute="bottom" constant="8" id="AKU-UB-WZi"/>
                             <constraint firstItem="uiQ-Br-exl" firstAttribute="leading" secondItem="Ql6-KE-94W" secondAttribute="trailing" constant="100" id="AsZ-aV-tgL"/>
@@ -209,6 +209,7 @@
                             <constraint firstItem="Ql6-KE-94W" firstAttribute="leading" secondItem="hE7-hw-HjF" secondAttribute="leadingMargin" id="Rwt-p8-cwx"/>
                             <constraint firstItem="uiQ-Br-exl" firstAttribute="top" secondItem="3M8-hi-qin" secondAttribute="bottom" constant="8" id="Sgz-39-1En"/>
                             <constraint firstItem="8Lb-vP-bt3" firstAttribute="top" secondItem="Ql6-KE-94W" secondAttribute="bottom" constant="92" id="V2e-9y-OFF"/>
+                            <constraint firstItem="0ja-6T-OBr" firstAttribute="top" secondItem="p82-mA-cfP" secondAttribute="bottom" constant="30" id="X6V-vx-WmW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YMj-jt-3Kh" secondAttribute="trailing" id="ajA-FE-VPs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kp0-0w-g9I" secondAttribute="trailing" id="bGW-XD-5sZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kp0-0w-g9I" secondAttribute="trailing" id="bHa-D4-9Om"/>
@@ -231,11 +232,11 @@
                                 <exclude reference="YMj-jt-3Kh"/>
                                 <exclude reference="Ql6-KE-94W"/>
                                 <exclude reference="uiQ-Br-exl"/>
-                                <exclude reference="dHq-15-9HP"/>
                                 <exclude reference="8Lb-vP-bt3"/>
                                 <exclude reference="kp0-0w-g9I"/>
                                 <exclude reference="0ja-6T-OBr"/>
                                 <exclude reference="3M8-hi-qin"/>
+                                <exclude reference="dHq-15-9HP"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="FIb-eP-QBl"/>
@@ -280,11 +281,11 @@
                                 <include reference="YMj-jt-3Kh"/>
                                 <include reference="Ql6-KE-94W"/>
                                 <include reference="uiQ-Br-exl"/>
-                                <include reference="dHq-15-9HP"/>
                                 <include reference="8Lb-vP-bt3"/>
                                 <include reference="kp0-0w-g9I"/>
                                 <include reference="0ja-6T-OBr"/>
                                 <include reference="3M8-hi-qin"/>
+                                <include reference="dHq-15-9HP"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="FIb-eP-QBl"/>
@@ -335,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5tC-Dm-F6S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1999.5" y="276"/>
+            <point key="canvasLocation" x="-2277" y="286"/>
         </scene>
     </scenes>
     <resources>
