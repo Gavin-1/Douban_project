@@ -11,6 +11,12 @@
 		26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9851CD9D21000077FFF /* SongInfo.m */; };
 		26E6B98C1CDA057200077FFF /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B98B1CDA057100077FFF /* CDSideBarController.m */; };
 		26E892D41CDB4AC8005201C0 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E892D31CDB4AC8005201C0 /* UserInfo.m */; };
+		26E892D71CDB4B2E005201C0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E892D61CDB4B2E005201C0 /* LoginViewController.m */; };
+		26E892DE1CDB4BAA005201C0 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E892DB1CDB4BAA005201C0 /* SidebarController.m */; };
+		26E892DF1CDB4BAA005201C0 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E892DD1CDB4BAA005201C0 /* UserInfoViewController.m */; };
+		26E892E91CDB4CC0005201C0 /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26E892E61CDB4CC0005201C0 /* ChannelsTableViewCell.xib */; };
+		26E892EA1CDB4CC0005201C0 /* ChannelTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26E892E71CDB4CC0005201C0 /* ChannelTableViewController.xib */; };
+		26E892EB1CDB4CC0005201C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E892E81CDB4CC0005201C0 /* Main.storyboard */; };
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
@@ -40,6 +46,15 @@
 		26E6B98B1CDA057100077FFF /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
 		26E892D21CDB4AC8005201C0 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		26E892D31CDB4AC8005201C0 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		26E892D51CDB4B2E005201C0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		26E892D61CDB4B2E005201C0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		26E892DA1CDB4BAA005201C0 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		26E892DB1CDB4BAA005201C0 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
+		26E892DC1CDB4BAA005201C0 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		26E892DD1CDB4BAA005201C0 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		26E892E61CDB4CC0005201C0 /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		26E892E71CDB4CC0005201C0 /* ChannelTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelTableViewController.xib; sourceTree = SOURCE_ROOT; };
+		26E892E81CDB4CC0005201C0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
 		4A178AB31CDA28A100E1477A /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
@@ -103,6 +118,12 @@
 		26E6B9881CDA042000077FFF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				26E892DA1CDB4BAA005201C0 /* SidebarController.h */,
+				26E892DB1CDB4BAA005201C0 /* SidebarController.m */,
+				26E892DC1CDB4BAA005201C0 /* UserInfoViewController.h */,
+				26E892DD1CDB4BAA005201C0 /* UserInfoViewController.m */,
+				26E892D51CDB4B2E005201C0 /* LoginViewController.h */,
+				26E892D61CDB4B2E005201C0 /* LoginViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -114,6 +135,16 @@
 				26E6B98B1CDA057100077FFF /* CDSideBarController.m */,
 			);
 			name = CDSideBarController;
+			sourceTree = "<group>";
+		};
+		26E892E51CDB4C5C005201C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26E892E61CDB4CC0005201C0 /* ChannelsTableViewCell.xib */,
+				26E892E71CDB4CC0005201C0 /* ChannelTableViewController.xib */,
+				26E892E81CDB4CC0005201C0 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		2FF12F131CD8D72100CAA2E1 /* Model */ = {
@@ -167,6 +198,7 @@
 			children = (
 				26E6B9881CDA042000077FFF /* Controller */,
 				2FF12F131CD8D72100CAA2E1 /* Model */,
+				26E892E51CDB4C5C005201C0 /* View */,
 				4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */,
 				4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */,
 				4AEB827D1CD1B81C00F12BA6 /* ViewController.h */,
@@ -260,8 +292,11 @@
 				4AEB82871CD1B81C00F12BA6 /* LaunchScreen.storyboard in Resources */,
 				62A88E5D1CDA23F80019408A /* ChannelsTableViewCell.xib in Resources */,
 				62A88E631CDA24880019408A /* ChannelTableViewController.xib in Resources */,
+				26E892EB1CDB4CC0005201C0 /* Main.storyboard in Resources */,
 				4AEB82841CD1B81C00F12BA6 /* Assets.xcassets in Resources */,
+				26E892EA1CDB4CC0005201C0 /* ChannelTableViewController.xib in Resources */,
 				4AEB82821CD1B81C00F12BA6 /* Main.storyboard in Resources */,
+				26E892E91CDB4CC0005201C0 /* ChannelsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,9 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E892D41CDB4AC8005201C0 /* UserInfo.m in Sources */,
+				26E892DE1CDB4BAA005201C0 /* SidebarController.m in Sources */,
 				26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */,
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
+				26E892D71CDB4B2E005201C0 /* LoginViewController.m in Sources */,
 				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
 				26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */,
 				4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */,
@@ -331,6 +368,7 @@
 				4AEB82C31CD992B600F12BA6 /* DFMUpChannelsEntity.m in Sources */,
 				4AEB82C01CD8DA8D00F12BA6 /* DFMRecChannelsEntity.m in Sources */,
 				4AEB82DD1CDA02A200F12BA6 /* PlayerController.m in Sources */,
+				26E892DF1CDB4BAA005201C0 /* UserInfoViewController.m in Sources */,
 				4AEB82791CD1B81C00F12BA6 /* main.m in Sources */,
 				26E6B98C1CDA057200077FFF /* CDSideBarController.m in Sources */,
 			);
