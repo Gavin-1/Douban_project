@@ -10,6 +10,8 @@
 		26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9831CD9D21000077FFF /* ProtocolClass.m */; };
 		26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9851CD9D21000077FFF /* SongInfo.m */; };
 		2FB8AA741CDA1A2A00D47097 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8AA731CDA1A2A00D47097 /* UserInfo.m */; };
+		2FB8AB5F1CDAF15C00D47097 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8AB5E1CDAF15C00D47097 /* SidebarController.m */; };
+		2FB8AB621CDAF1BA00D47097 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8AB611CDAF1BA00D47097 /* UserInfoViewController.m */; };
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
@@ -35,6 +37,10 @@
 		26E6B9851CD9D21000077FFF /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		2FB8AA721CDA1A2A00D47097 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		2FB8AA731CDA1A2A00D47097 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		2FB8AB5D1CDAF15C00D47097 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		2FB8AB5E1CDAF15C00D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
+		2FB8AB601CDAF1BA00D47097 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		2FB8AB611CDAF1BA00D47097 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +100,10 @@
 		2FB8AA711CDA14D600D47097 /* Conyroller */ = {
 			isa = PBXGroup;
 			children = (
+				2FB8AB5D1CDAF15C00D47097 /* SidebarController.h */,
+				2FB8AB5E1CDAF15C00D47097 /* SidebarController.m */,
+				2FB8AB601CDAF1BA00D47097 /* UserInfoViewController.h */,
+				2FB8AB611CDAF1BA00D47097 /* UserInfoViewController.m */,
 			);
 			name = Conyroller;
 			sourceTree = "<group>";
@@ -299,9 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */,
+				2FB8AB5F1CDAF15C00D47097 /* SidebarController.m in Sources */,
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
 				2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */,
+				2FB8AB621CDAF1BA00D47097 /* UserInfoViewController.m in Sources */,
 				2FB8AA741CDA1A2A00D47097 /* UserInfo.m in Sources */,
 				26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */,
 				4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */,
