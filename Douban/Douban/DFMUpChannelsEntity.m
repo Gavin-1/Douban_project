@@ -16,4 +16,4 @@
 {
     return @{@"channels":NSStringFromClass([ChannelInfo class]),};
 }
-@end
+@end 
