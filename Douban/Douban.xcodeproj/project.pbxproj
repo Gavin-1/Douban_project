@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9831CD9D21000077FFF /* ProtocolClass.m */; };
 		26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9851CD9D21000077FFF /* SongInfo.m */; };
-		2FB8AA741CDA1A2A00D47097 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8AA731CDA1A2A00D47097 /* UserInfo.m */; };
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
@@ -101,11 +100,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2FB8AA711CDA14D600D47097 /* Conyroller */ = {
+		2FB8AA711CDA14D600D47097 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Conyroller;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		2FF12F131CD8D72100CAA2E1 /* Model */ = {
@@ -157,7 +156,7 @@
 		4AEB82761CD1B81B00F12BA6 /* Douban */ = {
 			isa = PBXGroup;
 			children = (
-				2FB8AA711CDA14D600D47097 /* Conyroller */,
+				2FB8AA711CDA14D600D47097 /* Controller */,
 				2FF12F131CD8D72100CAA2E1 /* Model */,
 				4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */,
 				4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */,
