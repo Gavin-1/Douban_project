@@ -2,7 +2,7 @@
 //  NetworkManager.h
 //  Douban
 //
-//  Created by lk on 16/5/4.
+//  Created by 郑随山 on 16/5/5.
 //  Copyright © 2016年 唐家文. All rights reserved.
 //
 
@@ -31,4 +31,3 @@
 
 -(void)loadPlaylistwithType:(NSString *)type;
 @end
-

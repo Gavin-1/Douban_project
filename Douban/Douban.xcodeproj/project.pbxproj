@@ -32,6 +32,7 @@
 		4AEB82D11CD99D8B00F12BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEB82D01CD99D8B00F12BA6 /* Foundation.framework */; };
 		4AEB82D31CD99DA700F12BA6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEB82D21CD99DA700F12BA6 /* AVFoundation.framework */; };
 		4AEB82DD1CDA02A200F12BA6 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82DC1CDA02A200F12BA6 /* PlayerController.m */; };
+		625CA4B21CDB61BA009E9EA7 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 625CA4B11CDB61BA009E9EA7 /* NetworkManager.m */; };
 		62A88E5D1CDA23F80019408A /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A88E5B1CDA23F80019408A /* ChannelsTableViewCell.xib */; };
 		62A88E631CDA24880019408A /* ChannelTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A88E611CDA24880019408A /* ChannelTableViewController.xib */; };
 		C236F220B709ED07D7CE8F45 /* libPods-Douban.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */; };
@@ -57,8 +58,6 @@
 		26E892E81CDB4CC0005201C0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
-		4A178AB31CDA28A100E1477A /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
-		4A178AB41CDA28A100E1477A /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEB82781CD1B81C00F12BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +82,8 @@
 		4AEB82DB1CDA02A200F12BA6 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
 		4AEB82DC1CDA02A200F12BA6 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
 		4F9545360E8FE53B268E15CE /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
+		625CA4B01CDB61BA009E9EA7 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		625CA4B11CDB61BA009E9EA7 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		62A88E5B1CDA23F80019408A /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
 		62A88E611CDA24880019408A /* ChannelTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelTableViewController.xib; sourceTree = "<group>"; };
 		D246E9FB1B976A409AE93DD4 /* libPods-Douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,8 +169,8 @@
 				4AEB82C81CD996CE00F12BA6 /* DFMPlaylist.m */,
 				4AEB82DB1CDA02A200F12BA6 /* PlayerController.h */,
 				4AEB82DC1CDA02A200F12BA6 /* PlayerController.m */,
-				4A178AB31CDA28A100E1477A /* NetworkManager.h */,
-				4A178AB41CDA28A100E1477A /* NetworkManager.m */,
+				625CA4B01CDB61BA009E9EA7 /* NetworkManager.h */,
+				625CA4B11CDB61BA009E9EA7 /* NetworkManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -367,6 +368,7 @@
 				4AEB82C61CD9949B00F12BA6 /* DFMHotChannelsEntity.m in Sources */,
 				4AEB82C31CD992B600F12BA6 /* DFMUpChannelsEntity.m in Sources */,
 				4AEB82C01CD8DA8D00F12BA6 /* DFMRecChannelsEntity.m in Sources */,
+				625CA4B21CDB61BA009E9EA7 /* NetworkManager.m in Sources */,
 				4AEB82DD1CDA02A200F12BA6 /* PlayerController.m in Sources */,
 				26E892DF1CDB4BAA005201C0 /* UserInfoViewController.m in Sources */,
 				4AEB82791CD1B81C00F12BA6 /* main.m in Sources */,
