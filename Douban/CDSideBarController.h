@@ -27,10 +27,10 @@
 //设置代理
 @property(nonatomic,weak)id<CDSideBarControllerDelegate>delegate;
 
-+(CDSideBarController *)sharedInstanceWithImages:(NSArray*)images;//初始化右侧的侧滑菜单Image
-+(CDSideBarController *)sharedInstance;//右侧的侧滑菜单
-- (CDSideBarController*)initWithImages:(NSArray*)buttonList;//初始化图片和列表按钮
-- (void)insertMenuButtonOnView:(UIView*)view atPosition:(CGPoint)position;//通过位置来插入View
++(CDSideBarController *)sharedInstanceWithImages:(NSArray*)images;//初始化sharedInstance图片数组
++(CDSideBarController *)sharedInstance;//初始化单例
+- (CDSideBarController*)initWithImages:(NSArray*)buttonList;//初始化图片按钮
+- (void)insertMenuButtonOnView:(UIView*)view atPosition:(CGPoint)position;//通过位置来插入button到View中
 - (void)dismissMenu;//释放菜单
 
 @end
