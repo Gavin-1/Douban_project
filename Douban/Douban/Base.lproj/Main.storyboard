@@ -113,7 +113,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="0.16" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="登陆">
+                                <state key="normal" title="登出">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -347,6 +347,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9Oi-JY-ViF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bFe-tI-FiI" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFT-zq-Mkh">
@@ -362,8 +363,7 @@
                                         <exclude reference="Fmh-7C-PGe"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="14" y="20" width="111" height="71"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Fmh-7C-PGe"/>
                                     </mask>
@@ -531,30 +531,30 @@
                                 <exclude reference="ZAe-7y-fp7"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ld5-Eh-4Bj"/>
-                                <exclude reference="m9E-Uj-B7j"/>
                                 <exclude reference="1Vp-jP-l4Q"/>
                                 <exclude reference="K1r-eV-2as"/>
                                 <exclude reference="ThJ-mR-ZKr"/>
                                 <exclude reference="fxg-8T-Luj"/>
+                                <exclude reference="BOR-tr-8CA"/>
+                                <exclude reference="p4A-yh-gg7"/>
                                 <exclude reference="0op-F6-eRM"/>
                                 <exclude reference="agq-nv-6ax"/>
                                 <exclude reference="dQi-vC-frg"/>
-                                <exclude reference="BOR-tr-8CA"/>
-                                <exclude reference="p4A-yh-gg7"/>
+                                <exclude reference="H0w-x0-VRE"/>
+                                <exclude reference="RQN-KZ-30G"/>
+                                <exclude reference="dTl-zl-C2S"/>
+                                <exclude reference="fuf-SB-Bwj"/>
+                                <exclude reference="O2B-VL-hTq"/>
+                                <exclude reference="Vzp-gD-OVR"/>
+                                <exclude reference="WbR-5e-1ro"/>
+                                <exclude reference="ltv-KY-6yl"/>
+                                <exclude reference="ld5-Eh-4Bj"/>
+                                <exclude reference="m9E-Uj-B7j"/>
                                 <exclude reference="GTM-Py-zBp"/>
                                 <exclude reference="YWQ-S8-Vsv"/>
                                 <exclude reference="dn5-cS-1eh"/>
                                 <exclude reference="dw8-Ob-onS"/>
                                 <exclude reference="fAc-f1-CAW"/>
-                                <exclude reference="O2B-VL-hTq"/>
-                                <exclude reference="Vzp-gD-OVR"/>
-                                <exclude reference="WbR-5e-1ro"/>
-                                <exclude reference="ltv-KY-6yl"/>
-                                <exclude reference="H0w-x0-VRE"/>
-                                <exclude reference="RQN-KZ-30G"/>
-                                <exclude reference="dTl-zl-C2S"/>
-                                <exclude reference="fuf-SB-Bwj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -568,30 +568,30 @@
                                 <include reference="ZAe-7y-fp7"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ld5-Eh-4Bj"/>
-                                <include reference="m9E-Uj-B7j"/>
                                 <include reference="1Vp-jP-l4Q"/>
                                 <include reference="K1r-eV-2as"/>
                                 <include reference="ThJ-mR-ZKr"/>
                                 <include reference="fxg-8T-Luj"/>
+                                <include reference="BOR-tr-8CA"/>
+                                <include reference="p4A-yh-gg7"/>
                                 <include reference="0op-F6-eRM"/>
                                 <include reference="agq-nv-6ax"/>
                                 <include reference="dQi-vC-frg"/>
-                                <include reference="BOR-tr-8CA"/>
-                                <include reference="p4A-yh-gg7"/>
+                                <include reference="H0w-x0-VRE"/>
+                                <include reference="RQN-KZ-30G"/>
+                                <include reference="dTl-zl-C2S"/>
+                                <include reference="fuf-SB-Bwj"/>
+                                <include reference="O2B-VL-hTq"/>
+                                <include reference="Vzp-gD-OVR"/>
+                                <include reference="WbR-5e-1ro"/>
+                                <include reference="ltv-KY-6yl"/>
+                                <include reference="ld5-Eh-4Bj"/>
+                                <include reference="m9E-Uj-B7j"/>
                                 <include reference="GTM-Py-zBp"/>
                                 <include reference="YWQ-S8-Vsv"/>
                                 <include reference="dn5-cS-1eh"/>
                                 <include reference="dw8-Ob-onS"/>
                                 <include reference="fAc-f1-CAW"/>
-                                <include reference="O2B-VL-hTq"/>
-                                <include reference="Vzp-gD-OVR"/>
-                                <include reference="WbR-5e-1ro"/>
-                                <include reference="ltv-KY-6yl"/>
-                                <include reference="H0w-x0-VRE"/>
-                                <include reference="RQN-KZ-30G"/>
-                                <include reference="dTl-zl-C2S"/>
-                                <include reference="fuf-SB-Bwj"/>
                             </mask>
                         </variation>
                         <connections>
