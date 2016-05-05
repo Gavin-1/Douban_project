@@ -10,6 +10,7 @@
 		26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9831CD9D21000077FFF /* ProtocolClass.m */; };
 		26E6B9871CD9D21000077FFF /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B9851CD9D21000077FFF /* SongInfo.m */; };
 		26E6B98C1CDA057200077FFF /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B98B1CDA057100077FFF /* CDSideBarController.m */; };
+		26E892D41CDB4AC8005201C0 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E892D31CDB4AC8005201C0 /* UserInfo.m */; };
 		2FF12F161CD8D74500CAA2E1 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */; };
 		4AEB82791CD1B81C00F12BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB82781CD1B81C00F12BA6 /* main.m */; };
 		4AEB827C1CD1B81C00F12BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB827B1CD1B81C00F12BA6 /* AppDelegate.m */; };
@@ -37,12 +38,12 @@
 		26E6B9851CD9D21000077FFF /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		26E6B98A1CDA057100077FFF /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
 		26E6B98B1CDA057100077FFF /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
+		26E892D21CDB4AC8005201C0 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		26E892D31CDB4AC8005201C0 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
 		2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
 		4A178AB31CDA28A100E1477A /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		4A178AB41CDA28A100E1477A /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
-		4A178AB61CDA2A0D00E1477A /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
-		4A178AB71CDA2A0D00E1477A /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		4AEB82741CD1B81B00F12BA6 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEB82781CD1B81C00F12BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AEB827A1CD1B81C00F12BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,10 +119,10 @@
 		2FF12F131CD8D72100CAA2E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				26E892D21CDB4AC8005201C0 /* UserInfo.h */,
+				26E892D31CDB4AC8005201C0 /* UserInfo.m */,
 				2FF12F141CD8D74500CAA2E1 /* ChannelInfo.h */,
 				2FF12F151CD8D74500CAA2E1 /* ChannelInfo.m */,
-				4A178AB61CDA2A0D00E1477A /* UserInfo.h */,
-				4A178AB71CDA2A0D00E1477A /* UserInfo.m */,
 				26E6B9821CD9D21000077FFF /* ProtocolClass.h */,
 				26E6B9831CD9D21000077FFF /* ProtocolClass.m */,
 				26E6B9841CD9D21000077FFF /* SongInfo.h */,
@@ -319,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E892D41CDB4AC8005201C0 /* UserInfo.m in Sources */,
 				26E6B9861CD9D21000077FFF /* ProtocolClass.m in Sources */,
 				4AEB827F1CD1B81C00F12BA6 /* ViewController.m in Sources */,
 				4AEB82C91CD996CE00F12BA6 /* DFMPlaylist.m in Sources */,
